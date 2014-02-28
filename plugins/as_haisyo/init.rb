@@ -1,0 +1,1 @@
+require 'haisyo_listener'
