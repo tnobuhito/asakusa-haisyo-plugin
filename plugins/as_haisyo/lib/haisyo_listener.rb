@@ -4,7 +4,7 @@ class HaisyoListener < AsakusaSatellite::Hook::Listener
 
 js_code = <<JSCODE
 $(function() {
-  $('#message').val('拝承 ＞ #{message}');
+  $('#message').val('拝承。 ＞ #{message}');
   $('.inputarea').submit();
 });
 JSCODE

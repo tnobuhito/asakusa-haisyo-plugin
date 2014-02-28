@@ -14,7 +14,7 @@ describe HaisyoListener do
       context = { message: @message }
       expected = <<EOS
 <input type="button" onClick="$(function() {
-  $('#message').val('拝承 ＞ 引用元メッセージ');
+  $('#message').val('拝承。 ＞ 引用元メッセージ');
   $('.inputarea').submit();
 });
 ">
