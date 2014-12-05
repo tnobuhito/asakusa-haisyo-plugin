@@ -10,7 +10,7 @@ $(function() {
 JSCODE
 
     return <<HTML
-<input type="button" onClick="#{js_code}">
+<input type="button" onClick="#{js_code}" alt="拝承。">
 HTML
   end
 end
