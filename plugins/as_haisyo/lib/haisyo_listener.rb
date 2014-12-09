@@ -10,7 +10,7 @@ $(function() {
 JSCODE
 
     return <<HTML
-<img src="/plugin/as_haisyo/image/haisyo.png" onClick="#{js_code}" alt="拝承。">
+<img src="/plugin/as_haisyo/image/haisyo.png" onClick="#{js_code}" title="拝承。" alt="拝承。">
 HTML
   end
 end
